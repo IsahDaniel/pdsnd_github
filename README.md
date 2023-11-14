@@ -15,3 +15,20 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Documentation
+A new documentation starts here
+
+
+### Documentation2
+A new documentation starts here
+
+### Documentation3
+A new documentation starts here
+
+### Documentation4
+A new documentation starts here
+
+
+### Documentation5
+A new documentation starts here
+
