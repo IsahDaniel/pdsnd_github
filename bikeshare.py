@@ -32,9 +32,10 @@ def choice(prompt, choices=('y', 'n')):
             choice = [i.strip().lower() for i in choice.split(',')]
             if list(filter(lambda x: x in choices, choice)) == choice:
                 break
+        promt_str = "\nSomething is not right. Please mind the formatting and "
+                  "be sure to enter a valid option:\n>"
 
-        prompt = ("\nSomething is not right. Please mind the formatting and "
-                  "be sure to enter a valid option:\n>")
+        prompt = (promt_str)
 
     return choice
 
@@ -234,7 +235,7 @@ def user_stats(df, city):
         print("\nDistribution for each gender:")
         print(gender_distribution)
     except KeyError:
-        print("We're sorry! There is no data of user genders for {}."
+        print("We are sorry! There is no data of user genders for {}."
               .format(city.title()))
 
     # Display earliest, most recent, and most common year of birth
