@@ -1,29 +1,33 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+This project was created on 11/14/2023.
 
 ### Project Title
-Replace the Project Title
+Project: Post your work on Github
 
 ### Description
-Describe what your project is about and what it does
+This project involves documenting a list of commands while executing them on git bash as the instructions are followed.
 
 ### Files used
-Include the files used
+The required files for running this program are:
+
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ### Documentation
-A new documentation starts here
+Nothing Much here
 
 
 ### Documentation2
-A new documentation starts here
+Still, nothing much, getting familiar with git
 
 ### Documentation3
-A new documentation starts here
+I just got better
 
 ### Documentation4
 A new documentation starts here
