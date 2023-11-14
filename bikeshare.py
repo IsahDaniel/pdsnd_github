@@ -93,11 +93,11 @@ def load_data(city, month, day):
     print("\nThe program is loading the data for the filters of your choice.")
     start_time = time.time()
 
-    # filter the data according to the selected city filters
+    # This code filter the data according to the selected city filters
     if isinstance(city, list):
         df = pd.concat(map(lambda city: pd.read_csv(CITY_DATA[city]), city),
                        sort=True)
-        # reorganize DataFrame columns after a city concat
+        # This code reorganizes DataFrame columns after a city concat
         try:
             df = df.reindex(columns=['Unnamed: 0', 'Start Time', 'End Time',
                                      'Trip Duration', 'Start Station',
